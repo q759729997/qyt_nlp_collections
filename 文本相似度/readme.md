@@ -11,3 +11,9 @@
 - **Levenshtein距离** 是编辑距离的一种，允许的操作包括一个字符替换成另一个字符，插入一个字符，删除一个字符。
 - 参考资料：[详解编辑距离(Edit Distance)及其代码实现] <https://www.jianshu.com/p/a617d20162cf>
 - [示例代码](./edit_distance.py)
+
+## Jaccard相似度
+
+- **描述：** 计算两个集合的相似度。J(X,Y) = |X∩Y| / |X∪Y|
+- 参考资料：[python实现——Jaccard相似度（jaccard_coefficient] <https://blog.csdn.net/bensonrachel/article/details/86434860>
+- [示例代码](./jaccard_distance_nltk.py)
