@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def levenshtein_edit_distance(sentence1, sentence2):
+def calculate_levenshtein_edit_distance(sentence1, sentence2):
     """计算编辑距离"""
     sentence1_len = len(sentence1)
     sentence2_len = len(sentence2)
@@ -22,7 +22,7 @@ if __name__ == "__main__":
     """编辑距离"""
     sentence1 = 'abc'
     sentence2 = 'bd'
-    print(levenshtein_edit_distance(sentence1, sentence2))  # 2.0
+    print(calculate_levenshtein_edit_distance(sentence1, sentence2))  # 2.0
     sentence1 = 'fxy'
     sentence2 = 'fab'
-    print(levenshtein_edit_distance(sentence1, sentence2))  # 2.0
+    print(calculate_levenshtein_edit_distance(sentence1, sentence2))  # 2.0
