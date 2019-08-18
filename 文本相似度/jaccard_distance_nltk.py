@@ -5,6 +5,7 @@ if __name__ == "__main__":
     """
     jaccard距离
     https://python.gotrained.com/nltk-edit-distance-jaccard-distance/
+    安装：pip install -U nltk -i https://pypi.douban.com/simple/
     """
     words1 = ['I', 'like', 'apple']
     words2 = ['I', 'do', 'not', 'like', 'apple']
