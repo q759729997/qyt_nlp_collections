@@ -9,7 +9,7 @@ $ ./fasttext skipgram -input data/fil9 -output result/fil9
 解释这行命令： ./fastext 用 skipgram 模型（或者是 cbow 模型）调用 fastText 二进制的可执行文件（在这里参考如何安装 fastText ）。然后，'-input' 选项要求我们指定输入数据的位置，'-output' 指定输出要保存的位置。
 ~~~
 
-- 示例训练命令
+- 示例训练命令,输入文件中单词使用空格隔开。
 
 ~~~
 ./fasttext skipgram -input /media/sf_vbshare/wordembedding/pku/pku-train.seg -output /media/sf_vbshare/wordembedding/pku/
